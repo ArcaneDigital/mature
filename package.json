@@ -1,13 +1,20 @@
 {
   "name": "mature",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Mature content filter using a keyword tokenizer and a banned word list.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Jay Goodfellow",
+    "email": "j.goodfellow@arcane.ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArcaneDigital/mature"
+  },
+  "license": "MIT",
   "dependencies": {
     "keyword-extractor": "0.0.15",
     "page-content": "1.1.5"
